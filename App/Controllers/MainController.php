@@ -2,14 +2,14 @@
 
 namespace App\Controllers;
 
-use App\Models\Hotels;
 use App\Controller;
+
 class MainController {
 	
 	public function index()
 	{
-		$hotel =  Hotels::index();
-		return Controller::view('view/index', $hotel);
+		$arg = "Hello World";
+		return Controller::view('view/index', $arg);
 		
 	}
 	

@@ -26,6 +26,7 @@ if ($_SESSION['hotels'] == null)
 					<a href="<?php echo $value[0]->hotelId ?>/<?php echo $value[0]->hotel_name ?>">
 						<p class="card-title"><?php echo $value[0]->hotel_name ?></p>
 						<p class="card-title"><?php echo $value[0]->hotelId ?></p>
+						<p class="card-title"><?php echo $value[0]->Address ?></p>
 					</a>
 
 				</div>

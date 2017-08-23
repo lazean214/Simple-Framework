@@ -2,9 +2,9 @@
 
 namespace App\Controllers;
 
-use App\Models\Pages;
-use App\Models\Hotels;
 use App\Controller;
+use App\Models\Pages;
+
 class PageController {
 	
 	public function index()
